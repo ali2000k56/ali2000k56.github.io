@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css and bootstrap ,icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styler/css.css">
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;0,800;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="fw_my_font bg-sit  ">
+    <!-- start nav -->
+    <nav class="bg-white fixed-top">
+        <div class="container  d-flex justify-content-between align-items-center navbar-expand-sm">
+            <div class="nav  h3 fw-bold text-decoration-none">
+                <a class="nav-link" href="https:www.google.com">MULTI</a>
+            </div>
+            <div class=" my-2 d-none d-lg-flex">
+                <ul class="text-capitalize nav">
+                    <div class="scroll-item d-flex">
+                        <li class="nav-item "><a class="nav-link text-primary " href="#">home</a>
+                        </li>
+                        <li class="nav-item about     "><button data-where="about"
+                                class="btn nav-link text-dark link-primary  ">about</button></li>
+                        <li class="nav-item serviceses   "><button data-where="services"
+                                class="btn nav-link text-dark link-primary  ">services</button></li>
+                        <li class="nav-item portfolio   "><button data-where="portfolio"
+                                class="btn nav-link text-dark link-primary  ">portfolio</button></li>
+                        <li class="nav-item team   "><button data-where="team"
+                                class="btn nav-link text-dark link-primary  ">team</button></li>
+                    </div>
+                    <li class="dropdown">
+                        <a class="nav-link text-dark link-primary  " data-bs-toggle="dropdown">
+                            <div>
+                                Dropdown button <svg xmlns="http://www.w3.org/2000/svg"
+                                    class="my-svg text-dark link-primary" viewBox="0 0 448 512">
+                                    <path
+                                        d="M241 337c-9.4 9.4-24.6 9.4-33.9 0L47 177c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l143 143L367 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L241 337z" />
+                                </svg>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li>
+                                <h5 class="dropdown-header ">Dropdown header 1</h5>
+                            </li>
+                            <li><a class="dropdown-item " href="#">Link 1</a></li>
+                            <li class="dropdown">
+                                <a class="nav-link text-dark link-primary " data-bs-toggle="dropdown">
+                                    Dropdown button<i class="bi bi-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <h5 class="dropdown-header">Dropdown header 1</h5>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                    <li>
+                                        <h5 class="dropdown-header">Dropdown header 2</h5>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Another link</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                            <li>
+                                <h5 class="dropdown-header">Dropdown header 2</h5>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item "><a class="nav-link text-dark link-primary  align-content-center "
+                            href="https:www.google.com">content</a></li>
+                    <li class="btn btn-primary mx-2 px-4 py-2">get start</li>
+
+                </ul>
+            </div>
+            <!-- offcanvas -->
+            <div class="offcanvas offcanvas-end w-100 " id="ALI">
+                <div class="offcanvas-header">
+                    <h1 class="offcanvas-title">Heading</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="text-capitalize nav">
+                        <li class="nav-item "><a class="nav-link text-primary " href="https:www.google.com">home</a>
+                        </li>
+                        <div class="scroll-item d-flex">
+                            <li class="nav-item "><a class="nav-link text-primary " href="https:www.google.com">home</a>
+                            </li>
+                            <li class="nav-item about     "><button data-where="about"
+                                    class="btn nav-link text-dark link-primary  ">about</button></li>
+                            <li class="nav-item serviceses   "><button data-where="services"
+                                    class="btn nav-link text-dark link-primary  ">services</button></li>
+                            <li class="nav-item portfolio   "><button data-where="portfolio"
+                                    class="btn nav-link text-dark link-primary  ">portfolio</button></li>
+                            <li class="nav-item team   "><button data-where="team"
+                                    class="btn nav-link text-dark link-primary  ">team</button></li>
+                        </div>
+                        <li class="dropdown">
+                            <a class="nav-link text-dark link-primary  " data-bs-toggle="dropdown">
+                                <div>
+                                    Dropdown button <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="my-svg text-dark link-primary" viewBox="0 0 448 512">
+                                        <path
+                                            d="M241 337c-9.4 9.4-24.6 9.4-33.9 0L47 177c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l143 143L367 143c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L241 337z" />
+                                    </svg>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li>
+                                    <h5 class="dropdown-header ">Dropdown header 1</h5>
+                                </li>
+                                <li><a class="dropdown-item " href="#">Link 1</a></li>
+                                <li class="dropdown">
+                                    <a class="nav-link text-dark link-primary " data-bs-toggle="dropdown">
+                                        Dropdown button<i class="bi bi-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <h5 class="dropdown-header">Dropdown header 1</h5>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                        <li>
+                                            <h5 class="dropdown-header">Dropdown header 2</h5>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                <li>
+                                    <h5 class="dropdown-header">Dropdown header 2</h5>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Another link</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item "><a class="nav-link text-dark link-primary  align-content-center "
+                                href="https:www.google.com">content</a></li>
+                        <li class="btn btn-primary mx-2 px-4 py-2">get start</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class=" my-2 d-lg-none h-100 d-block">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#ALI">
+                    <i class="bi bi-list bg-primary"></i>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+    <!-- end nav -->
+    <!-- start carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" class="my-slid-date active" data-bs-target="#demo" data-bs-slide-to="0"></button>
+            <button type="button" class="my-slid-date " data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" class="my-slid-date " data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner my_slid d-flex">
+            <!-- slide 1 -->
+            <div class="carousel-item  active bg-1 vh-100  ">
+                <div class="container d-flex flex-column align-items-start justify-content-center vh-100 text-white">
+                    <h2 class=" ">Welcome to <span>Multi</span></h2>
+                    <p class="w-50 my-2">Ut velit est quam dolor ad a aliquid qui aliquid.
+                        Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
+                        Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore
+                        modi architecto.</p>
+                    <a href="https:www.google.com" class="btn btn-primary px-4 py-2">Read More</a>
+                </div>
+            </div>
+            <!-- slide 2 -->
+            <div class="carousel-item bg-2 vh-100  ">
+                <div class="container d-flex flex-column align-items-start justify-content-center vh-100 text-white">
+                    <h2 class=" ">Lorem Ipsum Dolor</h2>
+                    <p class="w-50 my-2">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat
+                        sequi
+                        nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
+                        doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                    <a href="https:www.google.com" class="btn btn-primary px-4 py-2">Read More</a>
+                </div>
+            </div>
+            <!-- slide 3 -->
+            <div class="carousel-item bg-3 vh-100 ">
+                <div class="container d-flex flex-column align-items-start justify-content-center vh-100 text-white">
+                    <h2 class=" ">Sequi ea ut et est quaerat</h2>
+                    <p class="w-50 my-2">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat
+                        sequi
+                        nihil
+                        ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque
+                        accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                    <a href="https:www.google.com" class="btn btn-primary px-4 py-2">Read More</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev  justify-content-start " type="button" data-bs-target="#demo"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon  mx-5  p-3 text-primary"></span>
+        </button>
+        <button class="carousel-control-next  justify-content-end " type="button" data-bs-target="#demo"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon mx-5  p-3 text-primary"></span>
+        </button>
+    </div>
+    <!-- end carousel -->
+    <!-- start about -->
+    <div class="container mb-5">
+        <div class="top-sec my-5">
+            <div class="d-flex  align-items-center p-0 " id="about">
+                <span class="text-muted fw-bold h6 ">ABOUT</span><span class="line ms-2 mb-2"></span>
+            </div>
+            <div>
+                <span class="text-dark-blue h2 fw-bold ">ABOUT US</span>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12 col-sm-10 col-md-10 col-lg-6 my-1">
+                <div class="my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </div>
+                <ul class="p-0 ">
+                    <li class="list-unstyled d-flex align-items-center "><i
+                            class="bi bi-check2-all text-primary me-3 fs-5"></i>
+                        <p class="m-0">Ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+                    </li>
+                    <li class="list-unstyled d-flex align-items-center "><i
+                            class="bi bi-check2-all text-primary me-3 fs-5"></i>
+                        <p class="m-0">Duis aute irure dolor in reprehenderit in voluptate velit</p>
+                    </li>
+                    <li class="list-unstyled d-flex align-items-center "><i
+                            class="bi bi-check2-all text-primary me-3 fs-5"></i>
+                        <p class="m-0">Ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-10 col-md-10 col-lg-6 my-1 text-light-dark">
+                <p class="w-100">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button class="btn btn-outline-primary text-capitalize">learn More</button>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col col-12 col-sm-10 col-md-6 col-lg-3  my-2 ">
+                <div class="container  bg-white shadow mx-1 p-4">
+                    <div class="">
+                        <i class="bi bi-emoji-sunglasses fs-3 text-primary fs-1"></i><span
+                            class="ms-3 fs-45px">232</span>
+                    </div>
+                    <p class="mt-2 mb-3"><b> Happy Clients </b> consequuntur quae qui deca rode</p>
+                    <a href="#" class="text-decoration-none text-dark-blue ">Find out More <i
+                            class="bi bi-chevron-double-right"></i></a>
+                </div>
+            </div>
+            <div class="col col-12 col-sm-10 col-md-6 col-lg-3  my-2 ">
+                <div class="container  bg-white shadow mx-1 p-4">
+                    <div class="">
+                        <i class="bi bi-journal-richtext fs-3 text-primary fs-1"></i><span
+                            class="ms-3 fs-45px">521</span>
+                    </div>
+                    <p class="mt-2 mb-3"><b> Projects </b> adipisci atque cum quia aut numquam delectus</p>
+                    <a href="#" class="text-decoration-none text-dark-blue ">Find out More <i
+                            class="bi bi-chevron-double-right"></i></a>
+                </div>
+            </div>
+            <div class="col col-12 col-sm-10 col-md-6 col-lg-3  my-2 ">
+                <div class="container  bg-white shadow mx-1 p-4">
+                    <div class="">
+                        <i class="bi bi-headset fs-3 text-primary fs-1"></i><span class="ms-3 fs-45px">1468</span>
+                    </div>
+                    <p class="mt-2 mb-3"><b> Hours Of Support </b> aut commodi quaerat. Aliquam ratione</p>
+                    <a href="#" class="text-decoration-none text-dark-blue ">Find out More <i
+                            class="bi bi-chevron-double-right"></i></a>
+                </div>
+            </div>
+            <div class="col col-12 col-sm-10 col-md-6 col-lg-3  my-2 ">
+                <div class="container  bg-white shadow mx-1 p-4">
+                    <div class="">
+                        <i class="bi bi-people fs-3 text-primary fs-1"></i><span class="ms-3 fs-45px">15</span>
+                    </div>
+                    <p class="mt-2 mb-3"><b> Hard Workers </b> rerum asperiores dolor molestiae doloribu</p>
+                    <a href="#" class="text-decoration-none text-dark-blue ">Find out More <i
+                            class="bi bi-chevron-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- start video  -->
+    <div class="container-fluid bg-light-blue">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-5 p-0">
+                <div class="bg-video   d-flex justify-content-center align-items-center h-100">
+                    <i class="bi bi-play-circle-fill text-primary fs-60px"></i>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-7">
+                <div class="m-5">
+                    <div>
+                        <p class="text-dark-blue h2">Eum ipsam laborum deleniti <b>velit pariatur architecto</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item border-0 my-3  ">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span class="text-primary fs-4 me-2">01</span><span>Non consectetur a erat nam at
+                                        lectus urna duis?</span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse "
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
+                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
+                                    purus non.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 my-3  ">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span class="text-primary fs-4 me-2">02</span><span>Feugiat scelerisque varius morbi
+                                        enim nunc?</span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
+                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                                    cursus turpis massa tincidunt dui.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 my-3  ">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span class="text-primary fs-4 me-2">03</span><span>Dolor sit amet consectetur
+                                        adipiscing elit?</span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
+                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
+                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end video -->
+    <!-- start SERVICES -->
+    <section>
+        <div class="container">
+            <div class="top-sec my-5">
+                <div class="d-flex  align-items-center p-0 " id="services">
+                    <span class="text-muted fw-bold h6 ">SERVICES</span><span class="line ms-2 mb-2"></span>
+                </div>
+                <div>
+                    <span class="text-dark-blue h2 fw-bold ">CHECK OUR SERVICES</span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2  ">
+                        <div
+                            class="box_ser shadow d-flex flex-column justify-content-center align-items-center bg-white px-2 px-lg-4 py-4 py-lg-5 ">
+                            <div class="my_icons d-flex align-items-center justify-content-center text-white">
+                                <i class="bi bi-dribbble  fs-4"></i>
+                            </div>
+                            <span class=" fs-3 my-2">Lorem Ipsum</span>
+                            <p class="text-center text-mutd">Voluptatum deleniti atque corrupti quos dolores et quas
+                                molestias excepturi</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2  ">
+                        <div
+                            class="box_ser shadow d-flex flex-column justify-content-center align-items-center bg-white px-2 px-lg-4 py-4 py-lg-5 ">
+                            <div class="my_icons d-flex align-items-center justify-content-center text-white">
+                                <i class="bi bi-file-earmark-text fs-4"></i>
+                            </div>
+                            <span class=" fs-3 my-2">Sed ut perspiciatis</span>
+                            <p class="text-center text-mutd">Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2  ">
+                        <div
+                            class="box_ser shadow d-flex flex-column justify-content-center align-items-center bg-white px-2 px-lg-4 py-4 py-lg-5 ">
+                            <div class="my_icons d-flex align-items-center justify-content-center text-white">
+                                <i class="bi bi-speedometer2 fs-4"></i>
+                            </div>
+                            <span class=" fs-3 my-2">Lorem Ipsum</span>
+                            <p class="text-center text-mutd">Voluptatum deleniti atque corrupti quos dolores et quas
+                                molestias excepturi</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2  ">
+                        <div
+                            class="box_ser d-flex shadow flex-column justify-content-center align-items-center bg-white px-2 px-lg-4 py-4 py-lg-5 ">
+                            <div class="my_icons d-flex align-items-center justify-content-center text-white">
+                                <i class="bi bi-globe-americas fs-4"></i>
+                            </div>
+                            <span class=" fs-3 my-2">Lorem Ipsum</span>
+                            <p class="text-center text-mutd">Voluptatum deleniti atque corrupti quos dolores et quas
+                                molestias excepturi</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2  ">
+                        <div
+                            class="box_ser d-flex shadow flex-column justify-content-center align-items-center bg-white px-2 px-lg-4 py-4 py-lg-5 ">
+                            <div class="my_icons d-flex align-items-center justify-content-center text-white">
+                                <i class="bi bi-play-btn  fs-4"></i>
+                            </div>
+                            <span class=" fs-3 my-2">Lorem Ipsum</span>
+                            <p class="text-center text-mutd">Voluptatum deleniti atque corrupti quos dolores et quas
+                                molestias excepturi</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2  ">
+                        <div
+                            class="box_ser d-flex shadow flex-column justify-content-center align-items-center bg-white px-2 px-lg-4 py-4 py-lg-5 ">
+                            <div class="my_icons d-flex align-items-center justify-content-center text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    class="fs-4">
+                                    <path fill="currentColor"
+                                        d="M21 8V6H3v14H2v2h6v-7c0-.163.046-4 4-4c3.821 0 3.993 3.602 4 4v7h6v-2h-1V8zM2 2h20v2H2z" />
+                                </svg>
+                            </div>
+                            <span class=" fs-3 my-2">Lorem Ipsum</span>
+                            <p class="text-center text-mutd">Voluptatum deleniti atque corrupti quos dolores et quas
+                                molestias excepturi</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- end SERVICES -->
+    <!-- start TESTIMONIALS -->
+    <section class="bg-light-blue">
+        <div class="container pb-4">
+            <div class="top-sec py-5 ">
+                <div class="d-flex  align-items-center p-0 ">
+                    <span class="text-muted fw-bold h6 ">TESTIMONIALS</span><span class="line ms-2 mb-2"></span>
+                </div>
+                <div>
+                    <span class="text-dark-blue h2 fw-bold ">TESTIMONIALS</span>
+                </div>
+            </div>
+            <div>
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#dem" data-bs-slide-to="0"
+                            class="my-slid-date date_slid active"></button>
+                        <button type="button" data-bs-target="#dem" data-bs-slide-to="1"
+                            class="my-slid-date date_slid "></button>
+                        <button type="button" data-bs-target="#dem" data-bs-slide-to="2"
+                            class="my-slid-date date_slid "></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row ">
+                                <div class="col-12 col-sm-10 col-md-6 my-2 ">
+                                    <div
+                                        class="bg-white shadow px-5 py-4  my-2 ms-5 position-relative d-flex flex-column">
+                                        <img src="./assets/img/testimonials-3.jpg" alt="" class="img-thumbnail my_img "
+                                            style="width: 70px;">
+                                        <span class=" fs-4">Jena Karlis</span>
+                                        <span class=" fs-6 text-muted">Store Owner</span>
+                                        <p class=" ">
+                                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                                            fore quis sint minim.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-10 col-md-6 my-2 ">
+                                    <div
+                                        class="bg-white shadow px-5 py-4 my-2 ms-5 position-relative d-flex flex-column">
+                                        <img src="./assets/img/testimonials-3.jpg" alt="" class="img-thumbnail my_img "
+                                            style="width: 70px;">
+                                        <span class=" fs-4">Jena Karlis</span>
+                                        <span class=" fs-6 text-muted">Store Owner</span>
+                                        <p class=" ">
+                                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                                            fore quis sint minim.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row ">
+                                <div class="col-12 col-sm-10 col-md-6 my-2 ">
+                                    <div
+                                        class="bg-white shadow px-5 py-4  my-2 ms-5 position-relative d-flex flex-column">
+                                        <img src="./assets/img/testimonials-3.jpg" alt="" class="img-thumbnail my_img "
+                                            style="width: 70px;">
+                                        <span class=" fs-4">Jena Karlis</span>
+                                        <span class=" fs-6 text-muted">Store Owner</span>
+                                        <p class=" ">
+                                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                                            fore quis sint minim.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-10 col-md-6 my-2 ">
+                                    <div
+                                        class="bg-white shadow px-5 py-4 my-2 ms-5 position-relative d-flex flex-column">
+                                        <img src="./assets/img/testimonials-3.jpg" alt="" class="img-thumbnail my_img "
+                                            style="width: 70px;">
+                                        <span class=" fs-4">Jena Karlis</span>
+                                        <span class=" fs-6 text-muted">Store Owner</span>
+                                        <p class=" ">
+                                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                                            fore quis sint minim.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row ">
+                                <div class="col-12 col-sm-10 col-md-6 my-2 ">
+                                    <div
+                                        class="bg-white shadow px-5 py-4  my-2 ms-5 position-relative d-flex flex-column">
+                                        <img src="./assets/img/testimonials-3.jpg" alt="" class="img-thumbnail my_img "
+                                            style="width: 70px;">
+                                        <span class=" fs-4">Jena Karlis</span>
+                                        <span class=" fs-6 text-muted">Store Owner</span>
+                                        <p class=" ">
+                                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                                            fore quis sint minim.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-10 col-md-6 my-2 ">
+                                    <div
+                                        class="bg-white shadow px-5 py-4 my-2 ms-5 position-relative d-flex flex-column">
+                                        <img src="./assets/img/testimonials-3.jpg" alt="" class="img-thumbnail my_img "
+                                            style="width: 70px;">
+                                        <span class=" fs-4">Jena Karlis</span>
+                                        <span class=" fs-6 text-muted">Store Owner</span>
+                                        <p class=" ">
+                                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                                            quem veniam duis minim tempor labore quem eram duis noster aute amet eram
+                                            fore quis sint minim.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end TESTIMONIALS -->
+    <!-- start line -->
+    <section class="bg-dark-blue text-white">
+        <div class="container py-5 text-center">
+            <span class="text-capitalize fs-3">coll to acsion</span>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+            <a href="#" class="btn btn-outline-primary text-capitalize text-white px-4">coll to acsion</a>
+        </div>
+    </section>
+    <!-- end line -->
+    <!-- start portfolio -->
+    <section>
+        <div class="container my-5">
+            <div>
+                <div class="top-sec py-4 ">
+                    <div class="d-flex  align-items-center p-0 " id="portfolio">
+                        <span class="text-muted fw-bold h6 ">PORTFOLIO</span><span class="line ms-2 mb-2"></span>
+                    </div>
+                    <div>
+                        <span class="text-dark-blue h2 fw-bold ">CHECK OUR PORTFOLIO</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="d-flex justify-content-center list-unstyled">
+                    <li class="mx-2 text-primary ">ALL</li>
+                    <li class="mx-2 text-dark link-primary">APP</li>
+                    <li class="mx-2 text-dark link-primary">CARD</li>
+                    <li class="mx-2 text-dark link-primary">WEB</li>
+                </ul>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2 ">
+                        <div class="photo position-relative overflow-hidden d-flex justify-content-center mx-3 shadow">
+                            <div>
+                                <img src="./assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div
+                                class="box_hover d-flex justify-content-between bg-white  position-absolute  rounded-4">
+                                <div class="d-flex flex-column p-2 ">
+                                    <span class="text-dark fs-3">APP</span>
+                                    <span class="text-muted fs-6">APP</span>
+                                </div>
+                                <div class="d-flex align-items-center m-3">
+                                    <i class="fs-4 m-1 bi bi-plus my_portfolio-icons"></i>
+                                    <i class="fs-4 m-1 bi bi-link-45deg my_portfolio-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2 ">
+                        <div class="photo position-relative overflow-hidden d-flex justify-content-center mx-3 shadow">
+                            <div>
+                                <img src="./assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div
+                                class="box_hover d-flex justify-content-between bg-white  position-absolute  rounded-4">
+                                <div class="d-flex flex-column p-2 ">
+                                    <span class="text-dark fs-3">APP</span>
+                                    <span class="text-muted fs-6">APP</span>
+                                </div>
+                                <div class="d-flex align-items-center m-3">
+                                    <i class="fs-4 m-1 bi bi-plus my_portfolio-icons"></i>
+                                    <i class="fs-4 m-1 bi bi-link-45deg my_portfolio-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2 ">
+                        <div class="photo position-relative overflow-hidden d-flex justify-content-center mx-3 shadow">
+                            <div>
+                                <img src="./assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div
+                                class="box_hover d-flex justify-content-between bg-white  position-absolute  rounded-4">
+                                <div class="d-flex flex-column p-2 ">
+                                    <span class="text-dark fs-3">APP</span>
+                                    <span class="text-muted fs-6">APP</span>
+                                </div>
+                                <div class="d-flex align-items-center m-3">
+                                    <i class="fs-4 m-1 bi bi-plus my_portfolio-icons"></i>
+                                    <i class="fs-4 m-1 bi bi-link-45deg my_portfolio-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2 ">
+                        <div class="photo position-relative overflow-hidden d-flex justify-content-center mx-3 shadow">
+                            <div>
+                                <img src="./assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div
+                                class="box_hover d-flex justify-content-between bg-white  position-absolute  rounded-4">
+                                <div class="d-flex flex-column p-2 ">
+                                    <span class="text-dark fs-3">APP</span>
+                                    <span class="text-muted fs-6">APP</span>
+                                </div>
+                                <div class="d-flex align-items-center m-3">
+                                    <i class="fs-4 m-1 bi bi-plus my_portfolio-icons"></i>
+                                    <i class="fs-4 m-1 bi bi-link-45deg my_portfolio-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2 ">
+                        <div class="photo position-relative overflow-hidden d-flex justify-content-center mx-3 shadow">
+                            <div>
+                                <img src="./assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div
+                                class="box_hover d-flex justify-content-between bg-white  position-absolute  rounded-4">
+                                <div class="d-flex flex-column p-2 ">
+                                    <span class="text-dark fs-3">APP</span>
+                                    <span class="text-muted fs-6">APP</span>
+                                </div>
+                                <div class="d-flex align-items-center m-3">
+                                    <i class="fs-4 m-1 bi bi-plus my_portfolio-icons"></i>
+                                    <i class="fs-4 m-1 bi bi-link-45deg my_portfolio-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2 ">
+                        <div class="photo position-relative overflow-hidden d-flex justify-content-center mx-3 shadow">
+                            <div>
+                                <img src="./assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div
+                                class="box_hover d-flex justify-content-between bg-white  position-absolute  rounded-4">
+                                <div class="d-flex flex-column p-2 ">
+                                    <span class="text-dark fs-3">APP</span>
+                                    <span class="text-muted fs-6">APP</span>
+                                </div>
+                                <div class="d-flex align-items-center m-3">
+                                    <i class="fs-4 m-1 bi bi-plus my_portfolio-icons"></i>
+                                    <i class="fs-4 m-1 bi bi-link-45deg my_portfolio-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2 ">
+                        <div class="photo position-relative overflow-hidden d-flex justify-content-center mx-3 shadow">
+                            <div>
+                                <img src="./assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div
+                                class="box_hover d-flex justify-content-between bg-white  position-absolute  rounded-4">
+                                <div class="d-flex flex-column p-2 ">
+                                    <span class="text-dark fs-3">APP</span>
+                                    <span class="text-muted fs-6">APP</span>
+                                </div>
+                                <div class="d-flex align-items-center m-3">
+                                    <i class="fs-4 m-1 bi bi-plus my_portfolio-icons"></i>
+                                    <i class="fs-4 m-1 bi bi-link-45deg my_portfolio-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2 ">
+                        <div class="photo position-relative overflow-hidden d-flex justify-content-center mx-3 shadow">
+                            <div>
+                                <img src="./assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div
+                                class="box_hover d-flex justify-content-between bg-white  position-absolute  rounded-4">
+                                <div class="d-flex flex-column p-2 ">
+                                    <span class="text-dark fs-3">APP</span>
+                                    <span class="text-muted fs-6">APP</span>
+                                </div>
+                                <div class="d-flex align-items-center m-3">
+                                    <i class="fs-4 m-1 bi bi-plus my_portfolio-icons"></i>
+                                    <i class="fs-4 m-1 bi bi-link-45deg my_portfolio-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 col-lg-4 my-2 ">
+                        <div class="photo position-relative overflow-hidden d-flex justify-content-center mx-3 shadow">
+                            <div>
+                                <img src="./assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div
+                                class="box_hover d-flex justify-content-between bg-white  position-absolute  rounded-4">
+                                <div class="d-flex flex-column p-2 ">
+                                    <span class="text-dark fs-3">APP</span>
+                                    <span class="text-muted fs-6">APP</span>
+                                </div>
+                                <div class="d-flex align-items-center m-3">
+                                    <i class="fs-4 m-1 bi bi-plus my_portfolio-icons"></i>
+                                    <i class="fs-4 m-1 bi bi-link-45deg my_portfolio-icons"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end portfolio -->
+    <!-- start team -->
+    <section class="bg-light-blue">
+        <div class="container py-5 ">
+            <div class="top-sec py-1 pb-5">
+                <div class="d-flex  align-items-center p-0 ">
+                    <span class="text-muted fw-bold h6 " id="team">TEAM</span><span class="line ms-2 mb-2"></span>
+                </div>
+                <div>
+                    <span class="text-dark-blue h2 fw-bold ">CHECK OUR TEAM</span>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="team_photo col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="mx-2">
+                            <div class="position-relative overflow-hidden my-3 p-0 ">
+                                <div><img src="./assets/img/team-4.jpg" class="img-fluid my_team_img" alt=""></div>
+                                <div class="bg-dark-blue-op  d-flex flex-column my_hovor1 position-absolute">
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-telegram"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-instagram"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-facebook"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-tiktok"></i></a>
+                                </div>
+                                <div
+                                    class="my_hovor2 position-absolute d-flex flex-column justify-content-end align-items-end">
+                                    <div class="d-flex flex-column justify-content-center align-items-center p-3">
+                                        <span class="fs-4 text-white  ">Amanda Jepson</span>
+                                        <span class="fs-6 text-white  "> Accountant</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team_photo col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="mx-2">
+                            <div class="position-relative overflow-hidden my-3 p-0 ">
+                                <div><img src="./assets/img/team-4.jpg" class="img-fluid my_team_img" alt=""></div>
+                                <div class="bg-dark-blue-op  d-flex flex-column my_hovor1 position-absolute">
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-telegram"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-instagram"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-facebook"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-tiktok"></i></a>
+                                </div>
+                                <div
+                                    class="my_hovor2 position-absolute d-flex flex-column justify-content-end align-items-end">
+                                    <div class="d-flex flex-column justify-content-center align-items-center p-3">
+                                        <span class="fs-4 text-white  ">Amanda Jepson</span>
+                                        <span class="fs-6 text-white  "> Accountant</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team_photo col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="mx-2">
+                            <div class="position-relative overflow-hidden my-3 p-0 ">
+                                <div><img src="./assets/img/team-4.jpg" class="img-fluid my_team_img" alt=""></div>
+                                <div class="bg-dark-blue-op  d-flex flex-column my_hovor1 position-absolute">
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-telegram"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-instagram"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-facebook"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-tiktok"></i></a>
+                                </div>
+                                <div
+                                    class="my_hovor2 position-absolute d-flex flex-column justify-content-end align-items-end">
+                                    <div class="d-flex flex-column justify-content-center align-items-center p-3">
+                                        <span class="fs-4 text-white  ">Amanda Jepson</span>
+                                        <span class="fs-6 text-white  "> Accountant</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team_photo col-12 col-sm-6 col-md-4 col-lg-3 ">
+                        <div class="mx-2">
+                            <div class="position-relative overflow-hidden my-3 p-0 ">
+                                <div><img src="./assets/img/team-4.jpg" class="img-fluid my_team_img" alt=""></div>
+                                <div class="bg-dark-blue-op  d-flex flex-column my_hovor1 position-absolute">
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-telegram"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-instagram"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-facebook"></i></a>
+                                    <a class="pt-2" href=""><i
+                                            class="link-primary fs-4 px-2   text-white bi bi-tiktok"></i></a>
+                                </div>
+                                <div
+                                    class="my_hovor2 position-absolute d-flex flex-column justify-content-end align-items-end">
+                                    <div class="d-flex flex-column justify-content-center align-items-center p-3">
+                                        <span class="fs-4 text-white  ">Amanda Jepson</span>
+                                        <span class="fs-6 text-white  "> Accountant</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end team -->
+    <!-- start PRICES -->
+    <section>
+        <div class="container">
+            <div class="top-sec py-4 ">
+                <div class="d-flex  align-items-center p-0 ">
+                    <span class="text-muted fw-bold h6 ">PRICES</span><span class="line ms-2 mb-2"></span>
+                </div>
+                <div>
+                    <span class="text-dark-blue h2 fw-bold ">OUR COMPETING PRICES</span>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-12 col-sm-10 col-md-4 my-2 ">
+                        <div class="bg-white d-flex flex-column align-items-center justify-content-center p-2 ">
+                            <div class="d-flex flex-column align-items-center justify-content-center py-3">
+                                <span class=" text-muted fs-3">Free</span>
+                                <span class="py-1 text-dark fs-2">$0</span>
+                                <span class=" text-muted fs-4">per month</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Quam adipiscing
+                                    vitae proin</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Nec feugiat nisl
+                                    pretium</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Nulla at volutpat
+                                    diam uteera</li>
+                                <li class="py-1 text-decoration-line-through fs-5 "><i
+                                        class="bi bi-x text-muted "></i>Pharetra massa massa ultricies</li>
+                                <li class="py-1 text-decoration-line-through fs-5 "><i
+                                        class="bi bi-x text-muted "></i>Massa ultricies mi quis hendrerit</li>
+                            </ul>
+                            <button class="btn btn-outline-dark py-1 my-3 px-3">GET START</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-4 my-2 ">
+                        <div
+                            class="bg-white d-flex flex-column align-items-center justify-content-center p-2 my-border  ">
+                            <div class="d-flex flex-column align-items-center justify-content-center py-3">
+                                <span class=" text-muted fs-3">Free</span>
+                                <span class="py-1 text-dark fs-2">$0</span>
+                                <span class=" text-muted fs-4">per month</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Quam adipiscing
+                                    vitae proin</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Nec feugiat nisl
+                                    pretium</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Nulla at volutpat
+                                    diam uteera</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Pharetra massa
+                                    massa ultricies</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Massa ultricies mi
+                                    quis hendrerit</li>
+                            </ul>
+                            <button class="btn btn-outline-primary py-1 my-3 px-3">GET START</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-4 my-2 ">
+                        <div class="bg-white d-flex flex-column align-items-center justify-content-center p-2 ">
+                            <div class="d-flex flex-column align-items-center justify-content-center py-3">
+                                <span class=" text-muted fs-3">Free</span>
+                                <span class="py-1 text-dark fs-2">$0</span>
+                                <span class=" text-muted fs-4">per month</span>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Quam adipiscing
+                                    vitae proin</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Nec feugiat nisl
+                                    pretium</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Nulla at volutpat
+                                    diam uteera</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Pharetra massa
+                                    massa ultricies</li>
+                                <li class="py-1"><i class="bi bi-check text-primary pe-2  fs-5 "></i>Massa ultricies mi
+                                    quis hendrerit</li>
+                            </ul>
+                            <button class="btn btn-outline-dark py-1 my-3 px-3">GET START</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end PRICES -->
+    <!-- start F.A.Q -->
+    <section>
+        <div class="container">
+            <div class="top-sec py-5 ">
+                <div class="d-flex  align-items-center p-0 ">
+                    <span class="text-muted fw-bold h6 ">F.A.G</span><span class="line ms-2 mb-2"></span>
+                </div>
+                <div>
+                    <span class="text-dark-blue h2 fw-bold ">FREQUENTLY ASKED QUESTIONS</span>
+                </div>
+            </div>
+            <div>
+                <div class="row border-bottom py-4">
+                    <div class="col-12 col-sm-10 col-md-5">
+                        <i class="text-primary fs-6 bi bi-question-circle"></i>
+                        <span>Non consectetur a erat nam at lectus urna duis?</span>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-7"><span>Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                            urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna
+                            porttitor rhoncus dolor purus non.</span></div>
+                </div>
+                <div class="row border-bottom py-4">
+                    <div class="col-12 col-sm-10 col-md-5">
+                        <i class="text-primary fs-6 bi bi-question-circle"></i>
+                        <span>Non consectetur a erat nam at lectus urna duis?</span>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-7"><span>Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                            urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna
+                            porttitor rhoncus dolor purus non.</span></div>
+                </div>
+                <div class="row border-bottom py-4">
+                    <div class="col-12 col-sm-10 col-md-5">
+                        <i class="text-primary fs-6 bi bi-question-circle"></i>
+                        <span>Non consectetur a erat nam at lectus urna duis?</span>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-7"><span>Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                            urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna
+                            porttitor rhoncus dolor purus non.</span></div>
+                </div>
+                <div class="row border-bottom py-4">
+                    <div class="col-12 col-sm-10 col-md-5">
+                        <i class="text-primary fs-6 bi bi-question-circle"></i>
+                        <span>Non consectetur a erat nam at lectus urna duis?</span>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-7"><span>Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                            urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna
+                            porttitor rhoncus dolor purus non.</span></div>
+                </div>
+                <div class="row border-bottom py-4">
+                    <div class="col-12 col-sm-10 col-md-5">
+                        <i class="text-primary fs-6 bi bi-question-circle"></i>
+                        <span>Non consectetur a erat nam at lectus urna duis?</span>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-7"><span>Feugiat pretium nibh ipsum consequat. Tempus iaculis
+                            urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna
+                            porttitor rhoncus dolor purus non.</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end F.A.Q -->
+    <!-- start CONTACT  -->
+    <section class="bg-light-blue  pb-5">
+        <div class="container">
+            <div class="top-sec py-5 ">
+                <div class="d-flex  align-items-center p-0 ">
+                    <span class="text-muted fw-bold h6 ">CONTACT</span><span class="line ms-2 mb-2"></span>
+                </div>
+                <div>
+                    <span class="text-dark-blue h2 fw-bold ">CONTACT US</span>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-12 col-sm-10 col-md-6 my-2">
+                        <div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div
+                                        class="bg-white my_hovor3 rounded-3shadow d-flex flex-column justify-content-center  p-4 align-items-center mb-3">
+                                        <div class=" ">
+                                            <i
+                                                class="boorder_icons bi bi-geo-alt  p-2 fs-3 text-primary rounded-circle"></i>
+                                        </div>
+                                        <span class="mb-1 mt-3">Our Address</span>
+                                        <address>A108 Adam Street, New York, NY 535022</address>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div
+                                        class="bg-white my_hovor3 rounded-3 shadow d-flex flex-column justify-content-center p-4  align-items-center">
+                                        <div class=" ">
+                                            <i
+                                                class="boorder_icons bi bi-envelope p-2 fs-3 text-primary  rounded-circle"></i>
+                                        </div>
+                                        <span class="mb-1 mt-3">Email Us</span>
+                                        <span>info@example.com</span>
+                                        <span>contact@example.com</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div
+                                        class="bg-white my_hovor3 rounded-3 shadow d-flex flex-column justify-content-center  p-4 align-items-center">
+                                        <div class=" ">
+                                            <i
+                                                class="boorder_icons bi bi-telephone p-2 fs-3 text-primary  rounded-circle"></i>
+                                        </div>
+                                        <span class="mb-1 mt-3">Call Us</span>
+                                        <span>+1 5589 55488 55</span>
+                                        <span>+1 6678 254445 41</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-6 my-2 ">
+                        <div class="bg-white  h-100 shadow rounded-3">
+                            <form action="" class="d-flex flex-column  py-3 px-2">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control my-1 " placeholder="Your name">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="email" class="form-control my-1 " placeholder="Your email">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control my-1 " name="" id=""
+                                            placeholder="subject">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="" class="form-control my-1 " id="" cols="30" rows="5"
+                                            placeholder=" your message"></textarea>
+                                    </div>
+                                    <div class="col-12 d-flex justify-content-center">
+                                        <button class=" btn btn-outline-primary  my-1 px-3 ">Sand Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end CONTACT  -->
+    <!-- start footer -->
+    <footer class="bg-dark-blue text-white">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-4 my-3 ">
+                    <div
+                        class="bg-dark-dark-blue d-flex flex-column  py-3  text-center align-items-center border-top border-3">
+                        <a href="#" class="h3 text-decoration-none fw-bold mt-2 multi ">Multi</a>
+                        <p class="mt-2">Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.
+                        </p>
+                        <address class="w-50">A108 Adam Street NY 535022, USA</address>
+                        <span><strong> Phone: </strong> +1 5589 55488 55</span>
+                        <span><strong>Email: </strong> info@example.com </span>
+                        <div class="d-flex  mt-2 justify-content-center align-items-center">
+                            <a href="" class=" footer_link bg-dark-blue mx-1 rounded-2  text-white p-1 link-primary"><i
+                                    class=" footer_icons mx-1 bi bi-twitter"></i>
+                            </a>
+                            <a href="" class=" footer_link bg-dark-blue mx-1 rounded-2  text-white p-1 link-primary"><i
+                                    class=" footer_icons mx-1 bi bi-instagram"></i>
+                            </a>
+                            <a href="" class=" footer_link bg-dark-blue mx-1 rounded-2  text-white p-1 link-primary"><i
+                                    class=" footer_icons mx-1 bi bi-telegram"></i>
+                            </a>
+                            <a href="" class=" footer_link bg-dark-blue mx-1 rounded-2  text-white p-1 link-primary"><i
+                                    class=" footer_icons mx-1 bi bi-tiktok"></i>
+                            </a>
+                            <a href="" class=" footer_link bg-dark-blue mx-1 rounded-2  text-white p-1 link-primary"><i
+                                    class=" footer_icons mx-1 bi bi-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-4 col-lg-2 my-3">
+                    <div class=" d-flex flex-column justify-content-start">
+                        <span class="h4">Useful links</span>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-4 col-lg-2 my-3">
+                    <div class=" d-flex flex-column justify-content-start">
+                        <span class="h4">Our Services</span>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+                        <a href="" class="text-white text-decoration-none link-primary pb-2"><i
+                                class="bi bi-chevron-right text-primary"></i>go home</a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-8 col-lg-4 my-3 ">
+                    <span class="h4">Our Newsletter</span>
+                    <p class="my-3">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Your Email">
+                        <button class="input-group-text btn btn-primary">subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <hr>
+                <div class=" text-white d-flex flex-column justify-content-center align-items-center">
+                    <span class="name px-3 py-1 rounded-3 ">AmirAli Koochi</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- end footer -->
+    <!-- start button fix -->
+    <!-- 1111111111111111111111111111111111 -->
+    <!-- end button fix -->
+    <!-- start js -->
+    <script src="./assets/styler/app.js"></script>
+    <!-- end js -->
+</body>
+
+</html>-4
