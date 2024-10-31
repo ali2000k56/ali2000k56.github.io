@@ -1,0 +1,267 @@
+.my-slid-date {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+.fw_my_font {
+    font-family: 'Raleway', sans-serif;
+}
+
+.my_slid {
+    height: 100vh;
+
+
+}
+
+.bg-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slide-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/slide-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.my-svg {
+    width: 15px;
+}
+
+.my-slid-date.active {
+    background-color: #0d6efd !important;
+}
+
+.text-dark-blue {
+    color: #0f2f57;
+}
+
+.bg-light-blue {
+    background-color: #e5ecf7;
+}
+
+.line {
+    width: 120px;
+    height: 1px;
+    background-color: #0d6efd;
+    display: inline-block;
+}
+
+.text-light-dark {
+    color: #444444;
+}
+
+.fs-45px {
+    font-size: 45px;
+}
+
+.fs-60px {
+    font-size: 60px;
+}
+
+.bg-video {
+    background-image: url(../img/why-us.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.my_icons {
+    background-color: #0d6efd;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: -7px -7px #5e9efd;
+}
+
+.box_ser:hover {
+    background-color: #0d6efd !important;
+    color: white !important;
+
+}
+
+.box_ser:hover .my_icons {
+    background-color: white !important;
+    color: #0d6efd !important;
+}
+
+.box_ser:hover p {
+    color: white;
+}
+
+.date_slid {
+    border: 1px #0d6efd solid !important;
+
+
+}
+
+.my_img {
+    position: absolute;
+    top: 20px;
+    left: -35px;
+}
+
+.bg-dark-blue {
+    background-color: #0f2f57;
+}
+
+.carousel-indicators {
+    bottom: -30px !important;
+}
+
+.box_hover {
+    bottom: -30%;
+    transition: 0.3s;
+    width: 85%;
+    opacity: 90%;
+
+}
+
+.photo:hover .box_hover {
+    bottom: 10%;
+}
+
+.my_portfolio-icons:hover {
+    color: #0d6efd;
+
+}
+
+.my_hovor1 {
+    width: 40px;
+    height: 100%;
+    top: -100%;
+    transition: 0.3s;
+    z-index: 5;
+}
+
+.team_photo:hover .my_hovor1 {
+    top: 0;
+}
+
+.team_photo:hover .my_hovor2 {
+    top: 0%;
+}
+
+.my_hovor2 {
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 8px;
+    transition: 0.3s;
+    background: linear-gradient(transparent, rgba(15, 47, 87, 0.8)) !important;
+}
+
+.bg-dark-blue-op {
+    background-color: rgba(15, 47, 87, 0.7);
+
+}
+
+.my-border {
+    border: 5px #0d6efd solid;
+}
+
+.boorder_icons {
+    padding: 5px;
+    border: 2px #79adfa dashed;
+    transition: 1s;
+}
+
+.my_hovor3:hover {
+    color: white;
+    background-color: #0d6efd !important;
+}
+
+.my_hovor3:hover .boorder_icons {
+    color: white !important;
+    border-color: white !important;
+    transition: calc(1.3) !important;
+}
+
+.form-control:focus {
+    border: 2px #0d6efd solid;
+    background-color: #aecdff;
+    color: white;
+}
+
+.bg-dark-dark-blue {
+    background-color: #051d3b;
+
+}
+
+.footer_link:hover {
+    background-color: #ffffff !important;
+}
+
+.name:hover {
+    color: #0d6efd;
+    background-color: #ffffff;
+    box-shadow: 2px 2px #0d6efd;
+}
+
+.multi:hover {
+    color: #0d6efd;
+}
+
+.bg-sit {
+    background-color: rgb(243, 243, 243);
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .bg-video {
+        height: 250px !important;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
+
+.hidden {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.position-fixed {
+    bottom: 10px;
+    right: 20px;
+    width: 20px;
+    z-index: 12;
+}
+
+.position-fixed:hover {
+    background-color: #ffffff;
+    color: #0d6efd;
+    transition: 1s;
+}
+
+.containe {
+    background: linear-gradient(135deg, #ffffff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.my-card {
+    text-align: center;
+}
+.card-hover{
+    transition: 1s;
+}
+.card-hover:hover {
+    transition: 0.5s !important;
+    transform: scale(1.1) !important}

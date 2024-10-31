@@ -1,0 +1,12 @@
+.time-M-S { 
+    display: none;
+}
+h1:hover  .time-M-S {
+    display: grid;
+}
+h1 {
+    padding: 20px;
+}
+.card{
+    height: 100%;
+}
